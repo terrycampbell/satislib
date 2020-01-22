@@ -1,0 +1,2283 @@
+{
+    "packages": {
+        "learningstacks/auth_imisbridge": {
+            "2.1.0": {
+                "name": "learningstacks/auth_imisbridge",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "learningstacks@vs-ssh.visualstudio.com:v3/learningstacks/Learning%20Stacks/auth_imisbridge",
+                    "reference": "tags/v2.1.0"
+                },
+                "require": {
+                    "moodle/moodle": "^3.5"
+                },
+                "type": "moodle-auth",
+                "extra": {
+                    "installer-name": "imisbridge"
+                }
+            }
+        },
+        "learningstacks/local_imisbridge": {
+            "2.1.0": {
+                "name": "learningstacks/local_imisbridge",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "learningstacks@vs-ssh.visualstudio.com:v3/learningstacks/Learning%20Stacks/local_imisbridge",
+                    "reference": "tags/v2.1.0"
+                },
+                "require": {
+                    "moodle/moodle": "^3.5"
+                },
+                "type": "moodle-local",
+                "extra": {
+                    "installer-name": "imisbridge"
+                }
+            }
+        },
+        "moodle/moodle": {
+            "v3.2.0": {
+                "name": "moodle/moodle",
+                "version": "v3.2.0",
+                "version_normalized": "3.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "b182239f21c38ea57cddb41b0c03ef3eb02709f8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/b182239f21c38ea57cddb41b0c03ef3eb02709f8",
+                    "reference": "b182239f21c38ea57cddb41b0c03ef3eb02709f8",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.4",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2016-12-03T13:26:14+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.1": {
+                "name": "moodle/moodle",
+                "version": "v3.2.1",
+                "version_normalized": "3.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "07f6358b03027633f1c8e8b14cc03d771f4e7462"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/07f6358b03027633f1c8e8b14cc03d771f4e7462",
+                    "reference": "07f6358b03027633f1c8e8b14cc03d771f4e7462",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.4",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-01-08T10:04:37+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.2": {
+                "name": "moodle/moodle",
+                "version": "v3.2.2",
+                "version_normalized": "3.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "70fa678586c32a4710c62a59f71d63e02bd9e500"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/70fa678586c32a4710c62a59f71d63e02bd9e500",
+                    "reference": "70fa678586c32a4710c62a59f71d63e02bd9e500",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.5",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-03-11T21:16:10+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.3": {
+                "name": "moodle/moodle",
+                "version": "v3.2.3",
+                "version_normalized": "3.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "896ce9b4e654b42c62a87d4e160be8e137e6a76f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/896ce9b4e654b42c62a87d4e160be8e137e6a76f",
+                    "reference": "896ce9b4e654b42c62a87d4e160be8e137e6a76f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.5",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-05-07T19:32:59+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.4": {
+                "name": "moodle/moodle",
+                "version": "v3.2.4",
+                "version_normalized": "3.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "23360fd95b4c4d9d7121475af1082fff19edbda2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/23360fd95b4c4d9d7121475af1082fff19edbda2",
+                    "reference": "23360fd95b4c4d9d7121475af1082fff19edbda2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.5",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-07-08T18:43:34+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.5": {
+                "name": "moodle/moodle",
+                "version": "v3.2.5",
+                "version_normalized": "3.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "9146c518ece7c6b6623a9eb7a35aa174a6f1545b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/9146c518ece7c6b6623a9eb7a35aa174a6f1545b",
+                    "reference": "9146c518ece7c6b6623a9eb7a35aa174a6f1545b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.5",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-09-09T20:48:05+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.6": {
+                "name": "moodle/moodle",
+                "version": "v3.2.6",
+                "version_normalized": "3.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "c0523b9857ac9542341c35d1acec486923282c2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/c0523b9857ac9542341c35d1acec486923282c2f",
+                    "reference": "c0523b9857ac9542341c35d1acec486923282c2f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.5",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-11-11T18:29:31+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.7": {
+                "name": "moodle/moodle",
+                "version": "v3.2.7",
+                "version_normalized": "3.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "36c7af0e7e1e62918da262668114a8b759f39768"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/36c7af0e7e1e62918da262668114a8b759f39768",
+                    "reference": "36c7af0e7e1e62918da262668114a8b759f39768",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.5",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-01-12T19:35:36+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.8": {
+                "name": "moodle/moodle",
+                "version": "v3.2.8",
+                "version_normalized": "3.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "2a591e36a9783c364d1c55d8988b5630d073bc93"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/2a591e36a9783c364d1c55d8988b5630d073bc93",
+                    "reference": "2a591e36a9783c364d1c55d8988b5630d073bc93",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.6",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-03-17T00:18:24+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.2.9": {
+                "name": "moodle/moodle",
+                "version": "v3.2.9",
+                "version_normalized": "3.2.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "45f418c1fb6b133e024cc09b346936e80b125078"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/45f418c1fb6b133e024cc09b346936e80b125078",
+                    "reference": "45f418c1fb6b133e024cc09b346936e80b125078",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "moodlehq/behat-extension": "3.32.6",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-05-16T16:42:08+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.0": {
+                "name": "moodle/moodle",
+                "version": "v3.3.0",
+                "version_normalized": "3.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "b87a580aa3eb23d5f05d7f619fc40a89e0f86fe5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/b87a580aa3eb23d5f05d7f619fc40a89e0f86fe5",
+                    "reference": "b87a580aa3eb23d5f05d7f619fc40a89e0f86fe5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-05-14T09:46:34+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.0-rc1": {
+                "name": "moodle/moodle",
+                "version": "v3.3.0-rc1",
+                "version_normalized": "3.3.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "48ad73619f870e4fd87240bd3c74202a300da6b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/48ad73619f870e4fd87240bd3c74202a300da6b2",
+                    "reference": "48ad73619f870e4fd87240bd3c74202a300da6b2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-05-05T15:40:04+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.0-rc2": {
+                "name": "moodle/moodle",
+                "version": "v3.3.0-rc2",
+                "version_normalized": "3.3.0.0-RC2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "b16603770ba6d6b58a112229a5b44f1ef3dc5da5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/b16603770ba6d6b58a112229a5b44f1ef3dc5da5",
+                    "reference": "b16603770ba6d6b58a112229a5b44f1ef3dc5da5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-05-09T11:42:23+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.0-rc3": {
+                "name": "moodle/moodle",
+                "version": "v3.3.0-rc3",
+                "version_normalized": "3.3.0.0-RC3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "49fa410dd198f2827bb84007de087236e4e92392"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/49fa410dd198f2827bb84007de087236e4e92392",
+                    "reference": "49fa410dd198f2827bb84007de087236e4e92392",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-05-12T09:02:41+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.0-beta": {
+                "name": "moodle/moodle",
+                "version": "v3.3.0-beta",
+                "version_normalized": "3.3.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "faedb2736eca0008750721c806e81d4d256d43dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/faedb2736eca0008750721c806e81d4d256d43dc",
+                    "reference": "faedb2736eca0008750721c806e81d4d256d43dc",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-04-21T14:48:31+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.1": {
+                "name": "moodle/moodle",
+                "version": "v3.3.1",
+                "version_normalized": "3.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "8e4341402a5c9326257b3036a936f98e08b5492f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/8e4341402a5c9326257b3036a936f98e08b5492f",
+                    "reference": "8e4341402a5c9326257b3036a936f98e08b5492f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-07-08T18:43:39+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.2": {
+                "name": "moodle/moodle",
+                "version": "v3.3.2",
+                "version_normalized": "3.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "3d77676d51dd9bf54b4ab4f9515c1b90c90de355"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/3d77676d51dd9bf54b4ab4f9515c1b90c90de355",
+                    "reference": "3d77676d51dd9bf54b4ab4f9515c1b90c90de355",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-09-09T20:48:09+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.3": {
+                "name": "moodle/moodle",
+                "version": "v3.3.3",
+                "version_normalized": "3.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "22bce961b7d594da8f6649fe3c932901af1200d5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/22bce961b7d594da8f6649fe3c932901af1200d5",
+                    "reference": "22bce961b7d594da8f6649fe3c932901af1200d5",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-11-11T18:29:38+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.4": {
+                "name": "moodle/moodle",
+                "version": "v3.3.4",
+                "version_normalized": "3.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "330fa046d56a31f6d69fd35d53476afaead55535"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/330fa046d56a31f6d69fd35d53476afaead55535",
+                    "reference": "330fa046d56a31f6d69fd35d53476afaead55535",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-01-12T19:35:41+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.5": {
+                "name": "moodle/moodle",
+                "version": "v3.3.5",
+                "version_normalized": "3.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "e786a591d538204fad37f188018f8c82f69a28f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/e786a591d538204fad37f188018f8c82f69a28f2",
+                    "reference": "e786a591d538204fad37f188018f8c82f69a28f2",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.2",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-03-17T00:18:30+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.6": {
+                "name": "moodle/moodle",
+                "version": "v3.3.6",
+                "version_normalized": "3.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "56ff85a36bf52130364433736532531d437cbe43"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/56ff85a36bf52130364433736532531d437cbe43",
+                    "reference": "56ff85a36bf52130364433736532531d437cbe43",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.2",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-05-16T16:42:13+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.7": {
+                "name": "moodle/moodle",
+                "version": "v3.3.7",
+                "version_normalized": "3.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "027b757f20c8e50d6fec2ef6f1ff2d85075690fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/027b757f20c8e50d6fec2ef6f1ff2d85075690fc",
+                    "reference": "027b757f20c8e50d6fec2ef6f1ff2d85075690fc",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.2",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-07-07T04:49:34+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.8": {
+                "name": "moodle/moodle",
+                "version": "v3.3.8",
+                "version_normalized": "3.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "c37329dc106377ac4e1b7cf4603361df0fd63b48"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/c37329dc106377ac4e1b7cf4603361df0fd63b48",
+                    "reference": "c37329dc106377ac4e1b7cf4603361df0fd63b48",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.2",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-09-08T14:49:39+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.3.9": {
+                "name": "moodle/moodle",
+                "version": "v3.3.9",
+                "version_normalized": "3.3.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "5c5ee48bf6061ce8650445a02b62c124e6a9673e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/5c5ee48bf6061ce8650445a02b62c124e6a9673e",
+                    "reference": "5c5ee48bf6061ce8650445a02b62c124e6a9673e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.33.2",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2018-11-10T19:36:16+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.0": {
+                "name": "moodle/moodle",
+                "version": "v3.4.0",
+                "version_normalized": "3.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "665c3ac59c35b7387a4fc70b8ac6600ce9ffeb87"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/665c3ac59c35b7387a4fc70b8ac6600ce9ffeb87",
+                    "reference": "665c3ac59c35b7387a4fc70b8ac6600ce9ffeb87",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.4.*"
+                },
+                "time": "2017-11-11T18:31:18+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.0-rc1": {
+                "name": "moodle/moodle",
+                "version": "v3.4.0-rc1",
+                "version_normalized": "3.4.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "159b4e5d8c773fc1c71cb97e728d05f4cbb9d49e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/159b4e5d8c773fc1c71cb97e728d05f4cbb9d49e",
+                    "reference": "159b4e5d8c773fc1c71cb97e728d05f4cbb9d49e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-11-03T09:26:18+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.0-rc2": {
+                "name": "moodle/moodle",
+                "version": "v3.4.0-rc2",
+                "version_normalized": "3.4.0.0-RC2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "ccf7578373718da40162b6c64e86be77d8f6f333"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/ccf7578373718da40162b6c64e86be77d8f6f333",
+                    "reference": "ccf7578373718da40162b6c64e86be77d8f6f333",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.4.*"
+                },
+                "time": "2017-11-08T08:47:39+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.0-rc3": {
+                "name": "moodle/moodle",
+                "version": "v3.4.0-rc3",
+                "version_normalized": "3.4.0.0-RC3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "ab9936962ec0638a014529b3f2c8e08a6ae618c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/ab9936962ec0638a014529b3f2c8e08a6ae618c0",
+                    "reference": "ab9936962ec0638a014529b3f2c8e08a6ae618c0",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.4.*"
+                },
+                "time": "2017-11-10T14:15:37+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.0-beta": {
+                "name": "moodle/moodle",
+                "version": "v3.4.0-beta",
+                "version_normalized": "3.4.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "d12e40978415661d39c53f5e95a8f0efa4fe0c9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/d12e40978415661d39c53f5e95a8f0efa4fe0c9e",
+                    "reference": "d12e40978415661d39c53f5e95a8f0efa4fe0c9e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.1",
+                    "phpunit/dbunit": "1.4.*",
+                    "phpunit/phpunit": "5.5.*"
+                },
+                "time": "2017-10-25T09:14:22+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.1": {
+                "name": "moodle/moodle",
+                "version": "v3.4.1",
+                "version_normalized": "3.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "c9236c6860d763916d8c7a0f8c5c63f37a0e3a0f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/c9236c6860d763916d8c7a0f8c5c63f37a0e3a0f",
+                    "reference": "c9236c6860d763916d8c7a0f8c5c63f37a0e3a0f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.4.*"
+                },
+                "time": "2018-01-12T19:35:46+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.2": {
+                "name": "moodle/moodle",
+                "version": "v3.4.2",
+                "version_normalized": "3.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "c485e424475b41d3ae55cc3c742fed9cd19a1e75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/c485e424475b41d3ae55cc3c742fed9cd19a1e75",
+                    "reference": "c485e424475b41d3ae55cc3c742fed9cd19a1e75",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.4.*"
+                },
+                "time": "2018-03-17T00:18:36+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.3": {
+                "name": "moodle/moodle",
+                "version": "v3.4.3",
+                "version_normalized": "3.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "05a434229c6301596abf624a66ebc10d6267c302"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/05a434229c6301596abf624a66ebc10d6267c302",
+                    "reference": "05a434229c6301596abf624a66ebc10d6267c302",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-05-16T16:42:18+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.4": {
+                "name": "moodle/moodle",
+                "version": "v3.4.4",
+                "version_normalized": "3.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "5ebb6eb15c250e175e2079bce5bb1c74eae29477"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/5ebb6eb15c250e175e2079bce5bb1c74eae29477",
+                    "reference": "5ebb6eb15c250e175e2079bce5bb1c74eae29477",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-07-07T04:53:43+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.5": {
+                "name": "moodle/moodle",
+                "version": "v3.4.5",
+                "version_normalized": "3.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "28f6460de388d77d95112e58463c04e69be5e208"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/28f6460de388d77d95112e58463c04e69be5e208",
+                    "reference": "28f6460de388d77d95112e58463c04e69be5e208",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-09-08T14:49:46+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.6": {
+                "name": "moodle/moodle",
+                "version": "v3.4.6",
+                "version_normalized": "3.4.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "d1e834866e37353bdd82bd8bb92fb26a39f39117"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/d1e834866e37353bdd82bd8bb92fb26a39f39117",
+                    "reference": "d1e834866e37353bdd82bd8bb92fb26a39f39117",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-11-10T19:36:22+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.7": {
+                "name": "moodle/moodle",
+                "version": "v3.4.7",
+                "version_normalized": "3.4.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "ea1d1cf9e1a2ebdae93c0efd71bd5b48096455f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/ea1d1cf9e1a2ebdae93c0efd71bd5b48096455f3",
+                    "reference": "ea1d1cf9e1a2ebdae93c0efd71bd5b48096455f3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-01-12T12:25:52+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.8": {
+                "name": "moodle/moodle",
+                "version": "v3.4.8",
+                "version_normalized": "3.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "52bd62f2be983a1b8afb26b0f9bd08c60cbfd2e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/52bd62f2be983a1b8afb26b0f9bd08c60cbfd2e6",
+                    "reference": "52bd62f2be983a1b8afb26b0f9bd08c60cbfd2e6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-03-08T10:03:07+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.4.9": {
+                "name": "moodle/moodle",
+                "version": "v3.4.9",
+                "version_normalized": "3.4.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "9650f3f56f74941b1ed03833a9e0f55cc7bb7082"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/9650f3f56f74941b1ed03833a9e0f55cc7bb7082",
+                    "reference": "9650f3f56f74941b1ed03833a9e0f55cc7bb7082",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.34.2",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-05-11T21:17:37+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.0": {
+                "name": "moodle/moodle",
+                "version": "v3.5.0",
+                "version_normalized": "3.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "46574904afd39578fa4146bf1fc5c401ac680aa6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/46574904afd39578fa4146bf1fc5c401ac680aa6",
+                    "reference": "46574904afd39578fa4146bf1fc5c401ac680aa6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-05-16T16:44:29+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.0-rc1": {
+                "name": "moodle/moodle",
+                "version": "v3.5.0-rc1",
+                "version_normalized": "3.5.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "dc71a8b50e27c621d50e8d3681f92a155d2c74de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/dc71a8b50e27c621d50e8d3681f92a155d2c74de",
+                    "reference": "dc71a8b50e27c621d50e8d3681f92a155d2c74de",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-05-15T07:42:49+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.0-beta": {
+                "name": "moodle/moodle",
+                "version": "v3.5.0-beta",
+                "version_normalized": "3.5.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "641d113c881f9abba01b5179f6a7a1b8655df8f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/641d113c881f9abba01b5179f6a7a1b8655df8f7",
+                    "reference": "641d113c881f9abba01b5179f6a7a1b8655df8f7",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-04-24T17:00:34+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.1": {
+                "name": "moodle/moodle",
+                "version": "v3.5.1",
+                "version_normalized": "3.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "5b78584fdbda65ac516f39f9e66f9376a793de92"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/5b78584fdbda65ac516f39f9e66f9376a793de92",
+                    "reference": "5b78584fdbda65ac516f39f9e66f9376a793de92",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-07-07T04:54:07+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.10": {
+                "name": "moodle/moodle",
+                "version": "v3.5.10",
+                "version_normalized": "3.5.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "2288e606152a0b5ee0c85f7b5feaf5f08313ebaf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/2288e606152a0b5ee0c85f7b5feaf5f08313ebaf",
+                    "reference": "2288e606152a0b5ee0c85f7b5feaf5f08313ebaf",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.4",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2020-01-10T05:03:30+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.2": {
+                "name": "moodle/moodle",
+                "version": "v3.5.2",
+                "version_normalized": "3.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "bd27666c42be0c873c7d98f0e81cb226d2ca6dbd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/bd27666c42be0c873c7d98f0e81cb226d2ca6dbd",
+                    "reference": "bd27666c42be0c873c7d98f0e81cb226d2ca6dbd",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-09-08T14:49:53+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.3": {
+                "name": "moodle/moodle",
+                "version": "v3.5.3",
+                "version_normalized": "3.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "789dcd6975004dfaa2d4d3086267fb29cba84da8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/789dcd6975004dfaa2d4d3086267fb29cba84da8",
+                    "reference": "789dcd6975004dfaa2d4d3086267fb29cba84da8",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-11-10T19:36:27+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.4": {
+                "name": "moodle/moodle",
+                "version": "v3.5.4",
+                "version_normalized": "3.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "4c6ae316d8128be8a2a42109410c1e1540600793"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/4c6ae316d8128be8a2a42109410c1e1540600793",
+                    "reference": "4c6ae316d8128be8a2a42109410c1e1540600793",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-01-12T12:25:56+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.5": {
+                "name": "moodle/moodle",
+                "version": "v3.5.5",
+                "version_normalized": "3.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "5e878219fbe7ab63d2a54ed02aff63443fb83192"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/5e878219fbe7ab63d2a54ed02aff63443fb83192",
+                    "reference": "5e878219fbe7ab63d2a54ed02aff63443fb83192",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-03-08T10:03:11+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.6": {
+                "name": "moodle/moodle",
+                "version": "v3.5.6",
+                "version_normalized": "3.5.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "73d401b462139746f95b0eaddc2b0bd3023d69b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/73d401b462139746f95b0eaddc2b0bd3023d69b0",
+                    "reference": "73d401b462139746f95b0eaddc2b0bd3023d69b0",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-05-11T21:17:42+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.7": {
+                "name": "moodle/moodle",
+                "version": "v3.5.7",
+                "version_normalized": "3.5.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "5725188035223fe8d8cf1c4a7c1af361a43ca6b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/5725188035223fe8d8cf1c4a7c1af361a43ca6b6",
+                    "reference": "5725188035223fe8d8cf1c4a7c1af361a43ca6b6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-07-05T10:27:14+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.8": {
+                "name": "moodle/moodle",
+                "version": "v3.5.8",
+                "version_normalized": "3.5.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "4a852e846705b7a396895cba7b2da348af170a50"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/4a852e846705b7a396895cba7b2da348af170a50",
+                    "reference": "4a852e846705b7a396895cba7b2da348af170a50",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.3",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-09-06T03:50:39+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.5.9": {
+                "name": "moodle/moodle",
+                "version": "v3.5.9",
+                "version_normalized": "3.5.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "fa0b5768cc0d47981e6786a587361004d66e625b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/fa0b5768cc0d47981e6786a587361004d66e625b",
+                    "reference": "fa0b5768cc0d47981e6786a587361004d66e625b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.35.4",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-11-09T10:57:38+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.0": {
+                "name": "moodle/moodle",
+                "version": "v3.6.0",
+                "version_normalized": "3.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "cb628a9a08933c2a9f1eae2f3be70ea5d343b419"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/cb628a9a08933c2a9f1eae2f3be70ea5d343b419",
+                    "reference": "cb628a9a08933c2a9f1eae2f3be70ea5d343b419",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-12-01T23:18:45+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.0-rc1": {
+                "name": "moodle/moodle",
+                "version": "v3.6.0-rc1",
+                "version_normalized": "3.6.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "599703e83dcdb7ba34bfdb486105218bfda75887"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/599703e83dcdb7ba34bfdb486105218bfda75887",
+                    "reference": "599703e83dcdb7ba34bfdb486105218bfda75887",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-11-25T09:50:38+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.0-rc2": {
+                "name": "moodle/moodle",
+                "version": "v3.6.0-rc2",
+                "version_normalized": "3.6.0.0-RC2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "df6d0b6d4544f717cf3d7a4e02d433faee2d138f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/df6d0b6d4544f717cf3d7a4e02d433faee2d138f",
+                    "reference": "df6d0b6d4544f717cf3d7a4e02d433faee2d138f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-11-28T10:23:40+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.0-rc3": {
+                "name": "moodle/moodle",
+                "version": "v3.6.0-rc3",
+                "version_normalized": "3.6.0.0-RC3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "5ff115743c7c36f4e0bcd3d0a18f7fc58ccd8883"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/5ff115743c7c36f4e0bcd3d0a18f7fc58ccd8883",
+                    "reference": "5ff115743c7c36f4e0bcd3d0a18f7fc58ccd8883",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-11-30T17:02:17+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.0-beta": {
+                "name": "moodle/moodle",
+                "version": "v3.6.0-beta",
+                "version_normalized": "3.6.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "01acb1ea90fe448c87c8e7d3bdca69219e6f04a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/01acb1ea90fe448c87c8e7d3bdca69219e6f04a3",
+                    "reference": "01acb1ea90fe448c87c8e7d3bdca69219e6f04a3",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-11-18T11:38:48+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.1": {
+                "name": "moodle/moodle",
+                "version": "v3.6.1",
+                "version_normalized": "3.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "d09dc52b0a9e229b75d760368b225132841cbd42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/d09dc52b0a9e229b75d760368b225132841cbd42",
+                    "reference": "d09dc52b0a9e229b75d760368b225132841cbd42",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2018-12-04T16:42:58+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.2": {
+                "name": "moodle/moodle",
+                "version": "v3.6.2",
+                "version_normalized": "3.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "68b59f336ba2d1b3340dd654f2084b7df46117d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/68b59f336ba2d1b3340dd654f2084b7df46117d6",
+                    "reference": "68b59f336ba2d1b3340dd654f2084b7df46117d6",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-01-12T12:26:00+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.3": {
+                "name": "moodle/moodle",
+                "version": "v3.6.3",
+                "version_normalized": "3.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "4d3a32dde97e964ad4512c35d15a1784c69c247e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/4d3a32dde97e964ad4512c35d15a1784c69c247e",
+                    "reference": "4d3a32dde97e964ad4512c35d15a1784c69c247e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-03-08T10:03:15+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.4": {
+                "name": "moodle/moodle",
+                "version": "v3.6.4",
+                "version_normalized": "3.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "4972dd43ddd32307983deb4180b36ef1f228cb77"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/4972dd43ddd32307983deb4180b36ef1f228cb77",
+                    "reference": "4972dd43ddd32307983deb4180b36ef1f228cb77",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-05-11T21:17:47+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.5": {
+                "name": "moodle/moodle",
+                "version": "v3.6.5",
+                "version_normalized": "3.6.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "c88d732e399b816b69010c2c6ee7deb2da268681"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/c88d732e399b816b69010c2c6ee7deb2da268681",
+                    "reference": "c88d732e399b816b69010c2c6ee7deb2da268681",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.0",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-07-05T10:27:19+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.6": {
+                "name": "moodle/moodle",
+                "version": "v3.6.6",
+                "version_normalized": "3.6.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "7de0c0f1ad6452b2562bdb7ea0349ab84e81e35f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/7de0c0f1ad6452b2562bdb7ea0349ab84e81e35f",
+                    "reference": "7de0c0f1ad6452b2562bdb7ea0349ab84e81e35f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.1",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-09-06T03:50:42+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.7": {
+                "name": "moodle/moodle",
+                "version": "v3.6.7",
+                "version_normalized": "3.6.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "27d0c2181bc587b6c742ebdcac0087c816d5d0ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/27d0c2181bc587b6c742ebdcac0087c816d5d0ff",
+                    "reference": "27d0c2181bc587b6c742ebdcac0087c816d5d0ff",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.3",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2019-11-09T10:57:42+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.6.8": {
+                "name": "moodle/moodle",
+                "version": "v3.6.8",
+                "version_normalized": "3.6.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "e05d1c34cd90b40ac4f675e4fd290fb1e52e8a4a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/e05d1c34cd90b40ac4f675e4fd290fb1e52e8a4a",
+                    "reference": "e05d1c34cd90b40ac4f675e4fd290fb1e52e8a4a",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.36.3",
+                    "phpunit/dbunit": "3.0.*",
+                    "phpunit/phpunit": "6.5.*"
+                },
+                "time": "2020-01-10T05:03:34+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.0": {
+                "name": "moodle/moodle",
+                "version": "v3.7.0",
+                "version_normalized": "3.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "89457b26d192c06325bb6782b85d1025dafbefe9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/89457b26d192c06325bb6782b85d1025dafbefe9",
+                    "reference": "89457b26d192c06325bb6782b85d1025dafbefe9",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.0",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-05-19T09:18:33+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.0-rc1": {
+                "name": "moodle/moodle",
+                "version": "v3.7.0-rc1",
+                "version_normalized": "3.7.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "b742fe1403e8e8030a0a092c01e56836903c5d45"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/b742fe1403e8e8030a0a092c01e56836903c5d45",
+                    "reference": "b742fe1403e8e8030a0a092c01e56836903c5d45",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.0",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-05-14T10:11:25+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.0-rc2": {
+                "name": "moodle/moodle",
+                "version": "v3.7.0-rc2",
+                "version_normalized": "3.7.0.0-RC2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "49f2581ef875943b22de81f81b0a1c1b5430cd3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/49f2581ef875943b22de81f81b0a1c1b5430cd3f",
+                    "reference": "49f2581ef875943b22de81f81b0a1c1b5430cd3f",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.0",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-05-16T08:57:08+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.0-beta": {
+                "name": "moodle/moodle",
+                "version": "v3.7.0-beta",
+                "version_normalized": "3.7.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "6a7451ff1b7f1f0ff84b920b1b6013e40fa8bad0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/6a7451ff1b7f1f0ff84b920b1b6013e40fa8bad0",
+                    "reference": "6a7451ff1b7f1f0ff84b920b1b6013e40fa8bad0",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.0",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-05-10T18:31:46+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.1": {
+                "name": "moodle/moodle",
+                "version": "v3.7.1",
+                "version_normalized": "3.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "b198428e41b0f2fafe4bb0e6db6e53f5b9eda212"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/b198428e41b0f2fafe4bb0e6db6e53f5b9eda212",
+                    "reference": "b198428e41b0f2fafe4bb0e6db6e53f5b9eda212",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.0",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-07-05T10:27:23+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.2": {
+                "name": "moodle/moodle",
+                "version": "v3.7.2",
+                "version_normalized": "3.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "6a30269d98d8e939930f5fea71fc82da6824806e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/6a30269d98d8e939930f5fea71fc82da6824806e",
+                    "reference": "6a30269d98d8e939930f5fea71fc82da6824806e",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.2",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-09-06T03:50:45+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.3": {
+                "name": "moodle/moodle",
+                "version": "v3.7.3",
+                "version_normalized": "3.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "25c9c6336bbcc519f4684826b76e2f89df0da70d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/25c9c6336bbcc519f4684826b76e2f89df0da70d",
+                    "reference": "25c9c6336bbcc519f4684826b76e2f89df0da70d",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.3",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-11-09T10:57:47+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.7.4": {
+                "name": "moodle/moodle",
+                "version": "v3.7.4",
+                "version_normalized": "3.7.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "86a19e4910cf035f7e0feedf514f2354ede267eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/86a19e4910cf035f7e0feedf514f2354ede267eb",
+                    "reference": "86a19e4910cf035f7e0feedf514f2354ede267eb",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.37.3",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2020-01-10T05:03:39+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.8.0": {
+                "name": "moodle/moodle",
+                "version": "v3.8.0",
+                "version_normalized": "3.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "f968cd44e8ee5d54b1bc56823040ff770dbf18af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/f968cd44e8ee5d54b1bc56823040ff770dbf18af",
+                    "reference": "f968cd44e8ee5d54b1bc56823040ff770dbf18af",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.38.3",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-11-16T16:54:07+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.8.0-rc1": {
+                "name": "moodle/moodle",
+                "version": "v3.8.0-rc1",
+                "version_normalized": "3.8.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "52d3d6f54026f4d0590afd4a3ffc096c7c7e3a85"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/52d3d6f54026f4d0590afd4a3ffc096c7c7e3a85",
+                    "reference": "52d3d6f54026f4d0590afd4a3ffc096c7c7e3a85",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.38.3",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-11-15T11:30:52+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.8.0-beta": {
+                "name": "moodle/moodle",
+                "version": "v3.8.0-beta",
+                "version_normalized": "3.8.0.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "1633a6035d8b56ad9dd33fc7b3502eb4928d9465"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/1633a6035d8b56ad9dd33fc7b3502eb4928d9465",
+                    "reference": "1633a6035d8b56ad9dd33fc7b3502eb4928d9465",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.38.3",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2019-11-12T15:50:55+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "v3.8.1": {
+                "name": "moodle/moodle",
+                "version": "v3.8.1",
+                "version_normalized": "3.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "77be1e3fe31a3414bd6b00d7fa7d54a1886185b4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/77be1e3fe31a3414bd6b00d7fa7d54a1886185b4",
+                    "reference": "77be1e3fe31a3414bd6b00d7fa7d54a1886185b4",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.38.3",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2020-01-10T05:03:44+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            },
+            "dev-master": {
+                "name": "moodle/moodle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:moodle/moodle.git",
+                    "reference": "77d1c415025f99f1c36dae67aac7af11b8a34b50"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/moodle/moodle/zipball/77d1c415025f99f1c36dae67aac7af11b8a34b50",
+                    "reference": "77d1c415025f99f1c36dae67aac7af11b8a34b50",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "instaclick/php-webdriver": "dev-local as 1.x-dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "moodlehq/behat-extension": "3.39.1",
+                    "phpunit/dbunit": "4.0.*",
+                    "phpunit/phpunit": "7.5.*"
+                },
+                "time": "2020-01-09T14:42:44+00:00",
+                "type": "project",
+                "license": [
+                    "GPL-3.0-or-later"
+                ],
+                "description": "Moodle - the world's open source learning platform",
+                "homepage": "https://moodle.org"
+            }
+        }
+    }
+}
